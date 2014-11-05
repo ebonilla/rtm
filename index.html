@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Rtm : Regularized Topic Models">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Rtm</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/ebonilla/rtm">View on GitHub</a>
+
+          <h1 id="project_title">Rtm</h1>
+          <h2 id="project_tagline">Regularized Topic Models</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/ebonilla/rtm/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/ebonilla/rtm/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="rtm" class="anchor" href="#rtm" aria-hidden="true"><span class="octicon octicon-link"></span></a>rtm</h1>
+
+<p>Regularized Topic Models</p>
+
+<p>Implements the regularized topic models in Newman, Bonilla and Buntine [1]</p>
+
+<h2>
+<a id="authors-" class="anchor" href="#authors-" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors: </h2>
+
+<p>David Newman (<a href="mailto:newman@uci.edu">newman@uci.edu</a>)
+Edwin V. Bonilla (<a href="mailto:edwinbonilla@gmail.com">edwinbonilla@gmail.com</a>)</p>
+
+<h2>
+<a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Requirements:</h2>
+
+<p>This is a self-contained package. You will need to compile the necessary
+mex files: </p>
+
+<blockquote>
+<blockquote>
+<p>mex gibbsmex_lda.c
+mex gibbsmex_semi.c</p>
+</blockquote>
+</blockquote>
+
+<h2>
+<a id="main-contents" class="anchor" href="#main-contents" aria-hidden="true"><span class="octicon octicon-link"></span></a>Main Contents</h2>
+
+<ol>
+<li>regularized_lda.m    : Learns an RTM model. </li>
+<li>make_reg_matrix.m    : Builds regularization matrices </li>
+<li>run_regularized_lda.m: An example of how to run the algorithms</li>
+</ol>
+
+<p>Additionally, we provide in a separate file rtm_data.zip the "climate" 
+dataset used in [1] as a test example:
+a) Ndw.txt: File containing the corpus data
+(b) vocab.txt: File containing the vocabulary</p>
+
+<h2>
+<a id="references" class="anchor" href="#references" aria-hidden="true"><span class="octicon octicon-link"></span></a>References</h2>
+
+<p>[1] David Newman and Edwin V. Bonilla and Wray Buntine.
+Improving Topic Coherence with Regularized Topic Models.
+Advances in Neural Information Processing Systems 24: NIPS'2011</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Rtm maintained by <a href="https://github.com/ebonilla">ebonilla</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
