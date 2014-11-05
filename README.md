@@ -8,8 +8,8 @@ Implements the regularized topic models in Newman, Bonilla and Buntine [1]
 Authors: 
 -----
 David Newman (newman@uci.edu)
-Edwin V. Bonilla (edwin.bonilla@nicta.com.au)
-Last update: 15-03-2012
+Edwin V. Bonilla (edwinbonilla@gmail.com)
+
 
 Requirements:
 -----------
